@@ -1,10 +1,17 @@
 name: Collect
 
+# auto collection
 on:
-  push:
-    branches: [ "main" ]
-#  schedule:
-#    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'crawler date time'
+        required: true
+      token:
+        description: 'select token'
+        required: true
+  schedule:
+    - cron: '0 15 * * *'
 
 jobs:
   collect-github:
@@ -18,9 +25,17 @@ jobs:
       - name: Prepare
         run: pip3 install -r requirement.txt
       - name: Crawler
-        run: python3 main.py ${{ secrets.CUSTOMS_GITHUB_TOKEN }}
+        run: python3 main.py ${{ secrets.CUSTOMS_GITHUB_TOKEN }} ${{ inputs.date }} ${{ inputs.token }}
+      - name: Upload Repos
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Github Action"
+          git remote set-url origin https://${{ github.actor }}:$(echo "${{ secrets.CUSTOMS_GITHUB_TOKEN }}" | cut -d ',' -f 1)@github.com/${{ github.repository }}
+          git pull --rebase
+          git add .
+          git commit -m "Auto Update `date --rfc-3339=seconds`"
+          git push -f
       - uses: actions/upload-artifact@v3
         with:
-          name: result.json
-          path: result.json
-
+          name: github
+          path: github-*.json
