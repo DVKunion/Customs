@@ -11,7 +11,7 @@ on:
         description: 'select token'
         required: true
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '0 17 * * *'
 
 jobs:
   collect-github:
@@ -35,7 +35,4 @@ jobs:
           git add .
           git commit -m "Auto Update `date --rfc-3339=seconds`"
           git push -f
-      - uses: actions/upload-artifact@v3
-        with:
-          name: github
-          path: github-*.json
+          curl https://mtigd2.laf.run/transfer_next?token=${{ inputs.token }}&date=${{ inputs.date }}

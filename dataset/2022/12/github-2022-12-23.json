@@ -1,0 +1,3237 @@
+[
+  {
+    "nameWithOwner": "kiri-art/docker-diffusers-api-build-download",
+    "description": "Builds diffusers-api with a pre-downloaded model",
+    "url": "https://github.com/kiri-art/docker-diffusers-api-build-download",
+    "createdAt": "2022-12-23T08:46:39Z",
+    "stargazerCount": 5,
+    "forkCount": 6,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/kiri-art/docker-diffusers-api-build-download/contents/Dockerfile",
+        "images": [
+          "gadicc/diffusers-api"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "nodetec/docker-bitcoin-core",
+    "description": null,
+    "url": "https://github.com/nodetec/docker-bitcoin-core",
+    "createdAt": "2022-12-23T00:19:23Z",
+    "stargazerCount": 4,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "24.0.1/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581353909/contents/24.0.1/Dockerfile?ref=873453981eeadfbf43d08ebd49bbf2c8f852eff7",
+        "images": [
+          "debian:bullseye-slim"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "cyrv6737/arch-custom",
+    "description": "Custom Arch Linux OCI images tailored for gaming under Distrobox on immutable Linux distros such as Fedora Silverblue",
+    "url": "https://github.com/cyrv6737/arch-custom",
+    "createdAt": "2022-12-23T09:24:43Z",
+    "stargazerCount": 3,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "nicklashansen/docker-from-conda",
+    "description": "Builds a docker image from a conda environment.yml file.",
+    "url": "https://github.com/nicklashansen/docker-from-conda",
+    "createdAt": "2022-12-23T09:44:55Z",
+    "stargazerCount": 3,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/nicklashansen/docker-from-conda/contents/Dockerfile",
+        "images": [
+          "nvidia/cuda:11.3.0-runtime-ubuntu20.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "amd/InfinityHub-CI",
+    "description": null,
+    "url": "https://github.com/amd/InfinityHub-CI",
+    "createdAt": "2022-12-23T02:47:01Z",
+    "stargazerCount": 2,
+    "forkCount": 3,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "hpcg-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/hpcg-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-20.04:5.3-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "specfem3d/docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/specfem3d/docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "ubuntu:22.04"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "openmm-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/openmm-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.5-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "lammps-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/lammps-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-20.04:5.3-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "rochpl/docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/rochpl/docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "ubuntu:20.04"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "gromacs-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/gromacs-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-20.04:5.3-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "pyfr-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/pyfr-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.4.2-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "cholla/docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/cholla/docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.4.2"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "cp2k-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/cp2k-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-20.04:5.4.3-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "grid/docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/grid/docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.6-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "base-gpu-mpi-rocm-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/base-gpu-mpi-rocm-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.4.2"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "petsc-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/petsc-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.4.2-complete"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "openfoam-docker/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581380460/contents/openfoam-docker/Dockerfile?ref=52a30e863626e63f147610c9c57cb1636b246f97",
+        "images": [
+          "rocm/dev-ubuntu-22.04:5.4.2-complete"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "MonolithProjects/docker-systemd-fedora36",
+    "description": "Fedora 36 docker image with systemd enabled and pre-created ansible user",
+    "url": "https://github.com/MonolithProjects/docker-systemd-fedora36",
+    "createdAt": "2022-12-23T17:56:35Z",
+    "stargazerCount": 2,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581611058/contents/Dockerfile?ref=b69dac636d38a9323b9d32c959aa4fad20b1ade3",
+        "images": [
+          "fedora:36"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Yoyolick/actions-test",
+    "description": "a test repository for github actions",
+    "url": "https://github.com/Yoyolick/actions-test",
+    "createdAt": "2022-12-23T18:48:57Z",
+    "stargazerCount": 2,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "lazyindu/Mogenius",
+    "description": null,
+    "url": "https://github.com/lazyindu/Mogenius",
+    "createdAt": "2022-12-23T06:13:03Z",
+    "stargazerCount": 2,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/lazyindu/Mogenius/contents/Dockerfile",
+        "images": [
+          "debian:11"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "ip2root/ip2root-infra",
+    "description": "The vulnerable infra to to test ip2root",
+    "url": "https://github.com/ip2root/ip2root-infra",
+    "createdAt": "2022-12-23T21:46:28Z",
+    "stargazerCount": 2,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Zainal21/php8.0-development-docker-image",
+    "description": "Base Image : registry.gitlab.com/zainal21/php8.0-docker-image, (Ubuntu:18.04, php8.0,nodejs, yarn , grunt, rsync )",
+    "url": "https://github.com/Zainal21/php8.0-development-docker-image",
+    "createdAt": "2022-12-23T02:25:07Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Zainal21/php8.0-development-docker-image/contents/Dockerfile",
+        "images": [
+          "ubuntu:18.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "MonolithProjects/docker-systemd-fedora37",
+    "description": "Fedora 37 docker image with systemd enabled and pre-created ansible",
+    "url": "https://github.com/MonolithProjects/docker-systemd-fedora37",
+    "createdAt": "2022-12-23T18:36:09Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581620998/contents/Dockerfile?ref=55f6bb1f0b39241328dd4ea5e3c3d6558d128685",
+        "images": [
+          "fedora:37"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Ryan121/docker-ubuntu",
+    "description": "A docker container with ubuntu os",
+    "url": "https://github.com/Ryan121/docker-ubuntu",
+    "createdAt": "2022-12-23T15:18:38Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "chaso-ch/website",
+    "description": "Website chaso.ch",
+    "url": "https://github.com/chaso-ch/website",
+    "createdAt": "2022-12-23T13:07:29Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581529833/contents/Dockerfile?ref=587051183260154118f93a43426c3f34fcad36d8",
+        "images": [
+          "python:3-alpine",
+          "registry.gitlab.com/ngine/docker-images/caddy:2.6"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "haiphamhoang/neko-xfce-firefox",
+    "description": null,
+    "url": "https://github.com/haiphamhoang/neko-xfce-firefox",
+    "createdAt": "2022-12-23T04:18:27Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/haiphamhoang/neko-xfce-firefox/contents/Dockerfile",
+        "images": [
+          "m1k1o/neko:xfce"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "aaslanyann/Dockerfile",
+    "description": "dockerfile",
+    "url": "https://github.com/aaslanyann/Dockerfile",
+    "createdAt": "2022-12-23T18:12:53Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/aaslanyann/Dockerfile/contents/Dockerfile",
+        "images": [
+          "ubuntu:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Gibby/synology-telegraf",
+    "description": null,
+    "url": "https://github.com/Gibby/synology-telegraf",
+    "createdAt": "2022-12-23T17:15:20Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Gibby/synology-telegraf/contents/Dockerfile",
+        "images": [
+          "telegraf:1.25.0-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "nghiahsgs/How-to-debug-fastapi-app-in-docker",
+    "description": "How to debug fastapi app in docker",
+    "url": "https://github.com/nghiahsgs/How-to-debug-fastapi-app-in-docker",
+    "createdAt": "2022-12-23T04:27:40Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/nghiahsgs/How-to-debug-fastapi-app-in-docker/contents/Dockerfile",
+        "images": [
+          "python:3.9-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "tobias-something-something/renovate-automerge-branch-protection",
+    "description": "Reproduction repository",
+    "url": "https://github.com/tobias-something-something/renovate-automerge-branch-protection",
+    "createdAt": "2022-12-23T08:28:08Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581454323/contents/Dockerfile?ref=42f655769b3a9ac4cbb6ba3dc547017c3a9905b2",
+        "images": [
+          "renovate/renovate:34.70.4",
+          "ubuntu:18.04",
+          "node:14.21.2"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "dejanzivanov/Inception",
+    "description": null,
+    "url": "https://github.com/dejanzivanov/Inception",
+    "createdAt": "2022-12-23T09:39:42Z",
+    "stargazerCount": 1,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "ulrichmonji/bootcamp10-projet-jenkins",
+    "description": null,
+    "url": "https://github.com/ulrichmonji/bootcamp10-projet-jenkins",
+    "createdAt": "2022-12-23T19:48:16Z",
+    "stargazerCount": 1,
+    "forkCount": 1,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/ulrichmonji/bootcamp10-projet-jenkins/contents/Dockerfile",
+        "images": [
+          "nginx:1.21.1"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "SiobhanP1/love-maths",
+    "description": null,
+    "url": "https://github.com/SiobhanP1/love-maths",
+    "createdAt": "2022-12-23T12:13:11Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "mmta/docker-coldcard-simulator",
+    "description": "Docker image for Coldcard simulator",
+    "url": "https://github.com/mmta/docker-coldcard-simulator",
+    "createdAt": "2022-12-23T12:24:15Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mmta/docker-coldcard-simulator/contents/Dockerfile",
+        "images": [
+          "python:latest",
+          "python:3.7.16-slim-bullseye"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "tonytiratay/authorizer",
+    "description": null,
+    "url": "https://github.com/tonytiratay/authorizer",
+    "createdAt": "2022-12-23T12:31:51Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/tonytiratay/authorizer/contents/Dockerfile",
+        "images": [
+          "lakhansamani/authorizer:1.1.31"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "BradleyParkin/play-blackjack",
+    "description": null,
+    "url": "https://github.com/BradleyParkin/play-blackjack",
+    "createdAt": "2022-12-23T19:19:03Z",
+    "stargazerCount": 0,
+    "forkCount": 1,
+    "details": []
+  },
+  {
+    "nameWithOwner": "BradleyParkin/21",
+    "description": null,
+    "url": "https://github.com/BradleyParkin/21",
+    "createdAt": "2022-12-23T18:28:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "lesterrye/dochan",
+    "description": null,
+    "url": "https://github.com/lesterrye/dochan",
+    "createdAt": "2022-12-23T23:46:14Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/lesterrye/dochan/contents/Dockerfile",
+        "images": [
+          "alpine:edge"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "LexaCoder/kti-infrastructure",
+    "description": null,
+    "url": "https://github.com/LexaCoder/kti-infrastructure",
+    "createdAt": "2022-12-23T22:48:04Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/LexaCoder/kti-infrastructure/contents/Dockerfile",
+        "images": [
+          "python:3.10-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "gissehel/docker-harp",
+    "description": "Image for harp",
+    "url": "https://github.com/gissehel/docker-harp",
+    "createdAt": "2022-12-23T17:30:01Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/gissehel/docker-harp/contents/Dockerfile",
+        "images": [
+          "node:18-alpine3.17"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "yogeshraheja/decsndemo",
+    "description": null,
+    "url": "https://github.com/yogeshraheja/decsndemo",
+    "createdAt": "2022-12-23T04:52:19Z",
+    "stargazerCount": 0,
+    "forkCount": 1,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/yogeshraheja/decsndemo/contents/Dockerfile",
+        "images": [
+          "centos:7"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "monisdapp/menn",
+    "description": "menn",
+    "url": "https://github.com/monisdapp/menn",
+    "createdAt": "2022-12-23T07:48:34Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/monisdapp/menn/contents/Dockerfile",
+        "images": [
+          "teddysun/xray"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "bpcarson/kube-sidecar",
+    "description": null,
+    "url": "https://github.com/bpcarson/kube-sidecar",
+    "createdAt": "2022-12-23T03:43:25Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/bpcarson/kube-sidecar/contents/Dockerfile",
+        "images": [
+          "alpine:3.6"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "leokvncrz/php-docker",
+    "description": "PHP Dev Environment in Docker",
+    "url": "https://github.com/leokvncrz/php-docker",
+    "createdAt": "2022-12-23T16:04:40Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "voroninadm/docker-php",
+    "description": "Build for docker on php+mysql+nginx+phpmyadmin+redis",
+    "url": "https://github.com/voroninadm/docker-php",
+    "createdAt": "2022-12-23T11:49:49Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "ttsilvattsilva/compose-lamp-docker",
+    "description": "Docker composer lamp",
+    "url": "https://github.com/ttsilvattsilva/compose-lamp-docker",
+    "createdAt": "2022-12-23T21:38:30Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "taz77/docker-iac-build",
+    "description": "Docker Container to run  Infrastructure as Code pipelines",
+    "url": "https://github.com/taz77/docker-iac-build",
+    "createdAt": "2022-12-23T14:11:36Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581548179/contents/Dockerfile?ref=a1953a4be4d0274ffd5ff73dc63eb338c612d411",
+        "images": [
+          "alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Maryam1555/cloud-project",
+    "description": null,
+    "url": "https://github.com/Maryam1555/cloud-project",
+    "createdAt": "2022-12-23T20:17:10Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Maryam1555/cloud-project/contents/Dockerfile",
+        "images": [
+          "nginx:alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Leonardo-Cardoso-ie/ci-fsf-hello-django",
+    "description": null,
+    "url": "https://github.com/Leonardo-Cardoso-ie/ci-fsf-hello-django",
+    "createdAt": "2022-12-23T04:45:57Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "adeptcain/vaulthunter-dockerfile",
+    "description": null,
+    "url": "https://github.com/adeptcain/vaulthunter-dockerfile",
+    "createdAt": "2022-12-23T04:27:28Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/adeptcain/vaulthunter-dockerfile/contents/Dockerfile",
+        "images": [
+          "eclipse-temurin:17-jdk-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "tonytiratay/openvscode",
+    "description": null,
+    "url": "https://github.com/tonytiratay/openvscode",
+    "createdAt": "2022-12-23T12:28:28Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/tonytiratay/openvscode/contents/Dockerfile",
+        "images": [
+          "gitpod/openvscode-server:1.65.2"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "channvvuthy/docker-laravel-php-mysql-nginx",
+    "description": null,
+    "url": "https://github.com/channvvuthy/docker-laravel-php-mysql-nginx",
+    "createdAt": "2022-12-23T01:40:13Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/channvvuthy/docker-laravel-php-mysql-nginx/contents/Dockerfile",
+        "images": [
+          "php:8.0.12-fpm"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "lqhuygt/huylq_demo_jenkins",
+    "description": null,
+    "url": "https://github.com/lqhuygt/huylq_demo_jenkins",
+    "createdAt": "2022-12-23T08:52:29Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/lqhuygt/huylq_demo_jenkins/contents/Dockerfile",
+        "images": [
+          "python:3.7.3-stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "pagopa/opex-dashboard-azure-action",
+    "description": null,
+    "url": "https://github.com/pagopa/opex-dashboard-azure-action",
+    "createdAt": "2022-12-23T13:42:22Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581539757/contents/Dockerfile?ref=ece3bc2b133be74cabb50aec14cdb9b8051b886f",
+        "images": [
+          "python:3.11.2-alpine3.17@sha256:1c66f5282876229c87851cde3a1c7eb8939f212cdf398201f86f5416c7907656"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "karlazx/docker-ubuntu-ssh",
+    "description": "ubuntu with ssh docker image build",
+    "url": "https://github.com/karlazx/docker-ubuntu-ssh",
+    "createdAt": "2022-12-23T14:49:43Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/karlazx/docker-ubuntu-ssh/contents/Dockerfile",
+        "images": [
+          "ubuntu:22.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "NAGIREDDYNANDYALA/hiring",
+    "description": null,
+    "url": "https://github.com/NAGIREDDYNANDYALA/hiring",
+    "createdAt": "2022-12-23T06:21:20Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/NAGIREDDYNANDYALA/hiring/contents/Dockerfile",
+        "images": [
+          "tomcat:8.0.20-jre8"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "vitaliyepikhin/kireev11",
+    "description": null,
+    "url": "https://github.com/vitaliyepikhin/kireev11",
+    "createdAt": "2022-12-23T07:14:49Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/vitaliyepikhin/kireev11/contents/Dockerfile",
+        "images": [
+          "python:3.11"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "NaoyaOgura0828/docker_develop_for_fedora",
+    "description": "Docker\u3067Fedora\u958b\u767a\u74b0\u5883\u3092\u69cb\u7bc9\u3059\u308b\u3002",
+    "url": "https://github.com/NaoyaOgura0828/docker_develop_for_fedora",
+    "createdAt": "2022-12-23T12:55:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/NaoyaOgura0828/docker_develop_for_fedora/contents/Dockerfile",
+        "images": [
+          "fedora:37"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "shahdlu/project",
+    "description": null,
+    "url": "https://github.com/shahdlu/project",
+    "createdAt": "2022-12-23T12:44:22Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/shahdlu/project/contents/Dockerfile",
+        "images": [
+          "nginx:alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "frsggtr/mogenius-2",
+    "description": "mogenius-2",
+    "url": "https://github.com/frsggtr/mogenius-2",
+    "createdAt": "2022-12-23T01:50:44Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/frsggtr/mogenius-2/contents/Dockerfile",
+        "images": [
+          "teddysun/xray"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "monisdapp/mo",
+    "description": "mo",
+    "url": "https://github.com/monisdapp/mo",
+    "createdAt": "2022-12-23T07:53:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/monisdapp/mo/contents/Dockerfile",
+        "images": [
+          "teddysun/xray"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "a-a-v-p/cfusion_21",
+    "description": null,
+    "url": "https://github.com/a-a-v-p/cfusion_21",
+    "createdAt": "2022-12-23T16:06:42Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/a-a-v-p/cfusion_21/contents/Dockerfile",
+        "images": [
+          "adobecoldfusion/coldfusion2021:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "matbuha/mongo-kub",
+    "description": "This application connects to a local MongoDB instance, accesses the \"mycollection\" collection in the \"mydb\" database, and prints the first document with the name \"John\" to the console.",
+    "url": "https://github.com/matbuha/mongo-kub",
+    "createdAt": "2022-12-23T19:03:23Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/matbuha/mongo-kub/contents/Dockerfile",
+        "images": [
+          "ubuntu:18.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "fsd2001/gitpod-images",
+    "description": "Custom gitpod images to use as a base for projects",
+    "url": "https://github.com/fsd2001/gitpod-images",
+    "createdAt": "2022-12-23T16:58:27Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/fsd2001/gitpod-images/contents/Dockerfile",
+        "images": [
+          "gitpod/workspace-postgresql"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "jiamiao442/redis-dockerfile",
+    "description": null,
+    "url": "https://github.com/jiamiao442/redis-dockerfile",
+    "createdAt": "2022-12-23T03:38:18Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/jiamiao442/redis-dockerfile/contents/Dockerfile",
+        "images": [
+          "alpine:3.16"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "yarakigit/textlint_tex_my_docker",
+    "description": null,
+    "url": "https://github.com/yarakigit/textlint_tex_my_docker",
+    "createdAt": "2022-12-23T09:09:44Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/yarakigit/textlint_tex_my_docker/contents/Dockerfile",
+        "images": [
+          "node"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "openjusticebe/ETAAMB_DB",
+    "description": "DB Dockerfile",
+    "url": "https://github.com/openjusticebe/ETAAMB_DB",
+    "createdAt": "2022-12-23T09:20:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/openjusticebe/ETAAMB_DB/contents/Dockerfile",
+        "images": [
+          "mariadb:10.10"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "L7L/Dockerfile",
+    "description": null,
+    "url": "https://github.com/L7L/Dockerfile",
+    "createdAt": "2022-12-23T01:10:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "BitGeek29/flutter-gitpod-by-29",
+    "description": "Docker Container for flutter 3 development ",
+    "url": "https://github.com/BitGeek29/flutter-gitpod-by-29",
+    "createdAt": "2022-12-23T20:26:49Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/BitGeek29/flutter-gitpod-by-29/contents/Dockerfile",
+        "images": [
+          "gitpod/workspace-full:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "john-ea/hls-proxy-docker",
+    "description": null,
+    "url": "https://github.com/john-ea/hls-proxy-docker",
+    "createdAt": "2022-12-23T20:06:01Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/john-ea/hls-proxy-docker/contents/Dockerfile",
+        "images": [
+          "alpine:3.15"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "sebastianrich18/GC-Fabric-Server",
+    "description": "Modded Minecraft server using fabric for GC-Craft server",
+    "url": "https://github.com/sebastianrich18/GC-Fabric-Server",
+    "createdAt": "2022-12-23T21:19:46Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/sebastianrich18/GC-Fabric-Server/contents/Dockerfile",
+        "images": [
+          "openjdk:17-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "shalini0723/docker_images_files",
+    "description": null,
+    "url": "https://github.com/shalini0723/docker_images_files",
+    "createdAt": "2022-12-23T06:50:41Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/shalini0723/docker_images_files/contents/Dockerfile",
+        "images": [
+          "mcr.microsoft.com/windows/servercore:ltsc2022"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "channvvuthy/laravel-docker-file",
+    "description": null,
+    "url": "https://github.com/channvvuthy/laravel-docker-file",
+    "createdAt": "2022-12-23T13:12:21Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/channvvuthy/laravel-docker-file/contents/Dockerfile",
+        "images": [
+          "composer:2.4",
+          "php:8.1-apache-buster",
+          "php:8.1-apache-buster"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "peet2k17/docker-hyperion.ng",
+    "description": null,
+    "url": "https://github.com/peet2k17/docker-hyperion.ng",
+    "createdAt": "2022-12-23T12:25:03Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/peet2k17/docker-hyperion.ng/contents/Dockerfile",
+        "images": [
+          "ubuntu:18.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "hudsonventura/PHPOnDocker_with_PDO_OCI",
+    "description": "Image with PHP FPM with PDO_OCI builded",
+    "url": "https://github.com/hudsonventura/PHPOnDocker_with_PDO_OCI",
+    "createdAt": "2022-12-23T17:27:54Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "aldeyf/n8n",
+    "description": null,
+    "url": "https://github.com/aldeyf/n8n",
+    "createdAt": "2022-12-23T01:43:42Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/aldeyf/n8n/contents/Dockerfile",
+        "images": [
+          "n8nio/n8n"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "kamaravichow/pocketbase",
+    "description": "Docker Image for Pocketbase and quick deploy with Railway",
+    "url": "https://github.com/kamaravichow/pocketbase",
+    "createdAt": "2022-12-23T04:11:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/kamaravichow/pocketbase/contents/Dockerfile",
+        "images": [
+          "amd64/ubuntu"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Rwwwrl/Deployment-simple-project",
+    "description": "\u0422\u0443\u0442 \u044f \u0432\u0437\u044f\u043b \u0437\u0430 \u043e\u0441\u043d\u043e\u0432\u0443 \u0441\u0430\u043c\u043e\u0435 \u043f\u0440\u043e\u0441\u0442\u043e \u0434\u0436\u0430\u043d\u0433\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0438 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0434\u043e\u043a\u0435\u0440\u0430 \u0435\u0433\u043e \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0437\u0438\u0440\u043e\u0432\u0430\u043b",
+    "url": "https://github.com/Rwwwrl/Deployment-simple-project",
+    "createdAt": "2022-12-23T13:32:09Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "pennyfarrell/wand-potion-parchment",
+    "description": "A wizardy version of the Rock Paper Scissors game!",
+    "url": "https://github.com/pennyfarrell/wand-potion-parchment",
+    "createdAt": "2022-12-23T20:06:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "14luisdias/i-db-postgres15-postgis3",
+    "description": "imagem docker com postgres vers\u00e3o 15 subindo um backeup do Banco",
+    "url": "https://github.com/14luisdias/i-db-postgres15-postgis3",
+    "createdAt": "2022-12-23T13:41:38Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/14luisdias/i-db-postgres15-postgis3/contents/Dockerfile",
+        "images": [
+          "postgres"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Ayan-M-Dev/Beginning-with-DevOps",
+    "description": "Starting & Creating with Docker ",
+    "url": "https://github.com/Ayan-M-Dev/Beginning-with-DevOps",
+    "createdAt": "2022-12-23T13:40:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "mlowell94/mysql-",
+    "description": null,
+    "url": "https://github.com/mlowell94/mysql-",
+    "createdAt": "2022-12-23T06:19:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mlowell94/mysql-/contents/Dockerfile",
+        "images": [
+          "mysql/mysql-server:8.0.24"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "haudi-development/hassio-addons",
+    "description": null,
+    "url": "https://github.com/haudi-development/hassio-addons",
+    "createdAt": "2022-12-23T10:39:34Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "DaveTrev/test-workspace",
+    "description": null,
+    "url": "https://github.com/DaveTrev/test-workspace",
+    "createdAt": "2022-12-23T20:34:53Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Tatianaruffo/my-first-template",
+    "description": null,
+    "url": "https://github.com/Tatianaruffo/my-first-template",
+    "createdAt": "2022-12-23T23:47:45Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "EpitechMouliBot/database",
+    "description": "The database to save everything about EpitechMouliBot",
+    "url": "https://github.com/EpitechMouliBot/database",
+    "createdAt": "2022-12-23T15:47:35Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581576391/contents/Dockerfile?ref=ec53fb78157a2ba85c87f82d473fe57ee76b8c04",
+        "images": [
+          "mysql"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Morenojourdain/ci-p1-wedding-photography",
+    "description": "My wedding photography portfolio project (project 1)  for full stack diploma.",
+    "url": "https://github.com/Morenojourdain/ci-p1-wedding-photography",
+    "createdAt": "2022-12-23T13:24:22Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "bravoure/bravoure-codespace",
+    "description": "Docker image build for use in codespaces",
+    "url": "https://github.com/bravoure/bravoure-codespace",
+    "createdAt": "2022-12-23T11:19:11Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581500048/contents/Dockerfile?ref=83f2a928dfcf0b982dd53d6f109516d389baa221",
+        "images": [
+          "mcr.microsoft.com/devcontainers/php:8-bullseye"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "techswarn/nodepnpm-docker-app",
+    "description": null,
+    "url": "https://github.com/techswarn/nodepnpm-docker-app",
+    "createdAt": "2022-12-23T21:59:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/techswarn/nodepnpm-docker-app/contents/Dockerfile",
+        "images": [
+          "node:16-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "mreisroot/tosko_dockerfile",
+    "description": null,
+    "url": "https://github.com/mreisroot/tosko_dockerfile",
+    "createdAt": "2022-12-23T00:22:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mreisroot/tosko_dockerfile/contents/Dockerfile",
+        "images": [
+          "debian"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "syedabushra/hello-world",
+    "description": null,
+    "url": "https://github.com/syedabushra/hello-world",
+    "createdAt": "2022-12-23T05:13:56Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/syedabushra/hello-world/contents/Dockerfile",
+        "images": [
+          "alpine:3.10"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "menegasse/fullcycle_desafio_golang",
+    "description": null,
+    "url": "https://github.com/menegasse/fullcycle_desafio_golang",
+    "createdAt": "2022-12-23T03:37:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/menegasse/fullcycle_desafio_golang/contents/Dockerfile",
+        "images": [
+          "golang:1.15-alpine",
+          "scratch"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "singleparty/qqminiapp-build-proxy",
+    "description": null,
+    "url": "https://github.com/singleparty/qqminiapp-build-proxy",
+    "createdAt": "2022-12-23T20:05:21Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/singleparty/qqminiapp-build-proxy/contents/Dockerfile",
+        "images": [
+          "qqminiapp/build:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Xh3ni/my-full-template",
+    "description": null,
+    "url": "https://github.com/Xh3ni/my-full-template",
+    "createdAt": "2022-12-23T20:12:24Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Razack619/new-project",
+    "description": null,
+    "url": "https://github.com/Razack619/new-project",
+    "createdAt": "2022-12-23T19:01:05Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Razack619/new-project/contents/Dockerfile",
+        "images": [
+          "node:14",
+          "node:14",
+          "node:14"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "AndersonAslap/challenge-docker-golang",
+    "description": null,
+    "url": "https://github.com/AndersonAslap/challenge-docker-golang",
+    "createdAt": "2022-12-23T17:12:07Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/AndersonAslap/challenge-docker-golang/contents/Dockerfile",
+        "images": [
+          "golang:1.15-alpine",
+          "scratch"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "rawhideron/kalilinux",
+    "description": null,
+    "url": "https://github.com/rawhideron/kalilinux",
+    "createdAt": "2022-12-23T16:54:32Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/rawhideron/kalilinux/contents/Dockerfile",
+        "images": [
+          "kalilinux/kali-rolling"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "hkjeldsberg/vampi",
+    "description": "Test",
+    "url": "https://github.com/hkjeldsberg/vampi",
+    "createdAt": "2022-12-23T14:11:01Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/hkjeldsberg/vampi/contents/Dockerfile",
+        "images": [
+          "ghcr.io/hkjeldsberg/vampy:v0.1.0"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "IagoSoLima/docker-golang",
+    "description": "Full cycle, Challenge Golang Docker Image less than 2MB",
+    "url": "https://github.com/IagoSoLima/docker-golang",
+    "createdAt": "2022-12-23T19:04:54Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/IagoSoLima/docker-golang/contents/Dockerfile",
+        "images": [
+          "golang:1.16-alpine",
+          "scratch"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "the-engineers-site/docker-amd64-build",
+    "description": null,
+    "url": "https://github.com/the-engineers-site/docker-amd64-build",
+    "createdAt": "2022-12-23T05:54:12Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/the-engineers-site/docker-amd64-build/contents/Dockerfile",
+        "images": [
+          "python:3.9.0"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "monisdapp/moge",
+    "description": "moge",
+    "url": "https://github.com/monisdapp/moge",
+    "createdAt": "2022-12-23T07:22:34Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/monisdapp/moge/contents/Dockerfile",
+        "images": [
+          "teddysun/xray"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "willfong/ansible-mariadb",
+    "description": "Ansible Playbooks for MariaDB Stuff",
+    "url": "https://github.com/willfong/ansible-mariadb",
+    "createdAt": "2022-12-23T10:53:43Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "aswinmahesh/portainer",
+    "description": null,
+    "url": "https://github.com/aswinmahesh/portainer",
+    "createdAt": "2022-12-23T10:42:21Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/aswinmahesh/portainer/contents/Dockerfile",
+        "images": [
+          "portainer/portainer-ce:alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "2macs/the-importance-of-this",
+    "description": null,
+    "url": "https://github.com/2macs/the-importance-of-this",
+    "createdAt": "2022-12-23T14:28:27Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "cmgrayb/salt-master",
+    "description": "Unofficial base descriptor for a Salt Master container for 3005 and above following the onedir install method",
+    "url": "https://github.com/cmgrayb/salt-master",
+    "createdAt": "2022-12-23T18:31:17Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Ryad-code/Inception_v2",
+    "description": "Setting up a small Docker infrastructure composed of different services (Nginx, MariaDB, Wordpress)",
+    "url": "https://github.com/Ryad-code/Inception_v2",
+    "createdAt": "2022-12-23T09:58:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Mpratama26304/render-wordpress",
+    "description": null,
+    "url": "https://github.com/Mpratama26304/render-wordpress",
+    "createdAt": "2022-12-23T14:37:17Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Mpratama26304/render-wordpress/contents/Dockerfile",
+        "images": [
+          "wordpress:5.3.2-apache"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "jrmuizel/react-15.5.4-unminified",
+    "description": "The unminified react source code that corresponds to Speedometer2",
+    "url": "https://github.com/jrmuizel/react-15.5.4-unminified",
+    "createdAt": "2022-12-23T19:34:37Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "react-todomvc/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581634385/contents/react-todomvc/Dockerfile?ref=3c2134a3990345464b723b4bf7658e390f231653",
+        "images": [
+          "ubuntu:xenial"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "piqueprototype/docker_enterprise_project_youtube",
+    "description": null,
+    "url": "https://github.com/piqueprototype/docker_enterprise_project_youtube",
+    "createdAt": "2022-12-23T22:16:36Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Mpratama26304/nextcloud-mysql",
+    "description": null,
+    "url": "https://github.com/Mpratama26304/nextcloud-mysql",
+    "createdAt": "2022-12-23T04:06:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Mpratama26304/nextcloud-mysql/contents/Dockerfile",
+        "images": [
+          "nextcloud"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "cyberphor/Docker-Elastic",
+    "description": "Dockerfiles for Elasticsearch, Kibana, Logstash, and ElastAlert. ",
+    "url": "https://github.com/cyberphor/Docker-Elastic",
+    "createdAt": "2022-12-23T15:18:05Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "fleet/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581568071/contents/fleet/Dockerfile?ref=04de983043cd09c88b6aeb2ee7d521506b6fc773",
+        "images": [
+          "elastic-agent:8.7.1"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "kibana/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581568071/contents/kibana/Dockerfile?ref=04de983043cd09c88b6aeb2ee7d521506b6fc773",
+        "images": [
+          "kibana:8.7.1"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "logstash/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581568071/contents/logstash/Dockerfile?ref=04de983043cd09c88b6aeb2ee7d521506b6fc773",
+        "images": [
+          "logstash:8.7.1"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "elastalert/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581568071/contents/elastalert/Dockerfile?ref=04de983043cd09c88b6aeb2ee7d521506b6fc773",
+        "images": [
+          "jertel/elastalert2:2"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "elasticsearch/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581568071/contents/elasticsearch/Dockerfile?ref=04de983043cd09c88b6aeb2ee7d521506b6fc773",
+        "images": [
+          "elasticsearch:8.7.1"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "baesky/dcrrepo",
+    "description": "Docker image repo for deep learning",
+    "url": "https://github.com/baesky/dcrrepo",
+    "createdAt": "2022-12-23T08:36:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/baesky/dcrrepo/contents/Dockerfile",
+        "images": [
+          "nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Code-Institute-Submissions/andreasarreqi-snake",
+    "description": null,
+    "url": "https://github.com/Code-Institute-Submissions/andreasarreqi-snake",
+    "createdAt": "2022-12-23T14:18:13Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "eunjeong-lee00/TEST",
+    "description": "test",
+    "url": "https://github.com/eunjeong-lee00/TEST",
+    "createdAt": "2022-12-23T04:03:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/eunjeong-lee00/TEST/contents/Dockerfile",
+        "images": [
+          "public.ecr.aws/docker/library/wordpress:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "joaosore/docker-nginx",
+    "description": null,
+    "url": "https://github.com/joaosore/docker-nginx",
+    "createdAt": "2022-12-23T22:09:48Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/joaosore/docker-nginx/contents/Dockerfile",
+        "images": [
+          "nginx:alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "vitaliyepikhin/maksaev22",
+    "description": null,
+    "url": "https://github.com/vitaliyepikhin/maksaev22",
+    "createdAt": "2022-12-23T07:10:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/vitaliyepikhin/maksaev22/contents/Dockerfile",
+        "images": [
+          "python:3.11"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "neonpictures/audiowaveform-docker",
+    "description": null,
+    "url": "https://github.com/neonpictures/audiowaveform-docker",
+    "createdAt": "2022-12-23T09:22:11Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/neonpictures/audiowaveform-docker/contents/Dockerfile",
+        "images": [
+          "ruby:2.7.5-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "lmlouis/Getstart-with-docker-",
+    "description": "Docker commande line cr\u00e9er container appache avec Dockerfil et exporter dans dockerhub ",
+    "url": "https://github.com/lmlouis/Getstart-with-docker-",
+    "createdAt": "2022-12-23T14:28:18Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "mikeybeezy/jenkins-docker-image",
+    "description": "jenkins-docker-image",
+    "url": "https://github.com/mikeybeezy/jenkins-docker-image",
+    "createdAt": "2022-12-23T01:46:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mikeybeezy/jenkins-docker-image/contents/Dockerfile",
+        "images": [
+          "jenkins/jenkins:2.375.1-jdk11"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "JessPorto/sharing-books",
+    "description": null,
+    "url": "https://github.com/JessPorto/sharing-books",
+    "createdAt": "2022-12-23T07:53:47Z",
+    "stargazerCount": 0,
+    "forkCount": 1,
+    "details": []
+  },
+  {
+    "nameWithOwner": "mega1339/kti-infrastructure",
+    "description": null,
+    "url": "https://github.com/mega1339/kti-infrastructure",
+    "createdAt": "2022-12-23T14:49:51Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mega1339/kti-infrastructure/contents/Dockerfile",
+        "images": [
+          "python:3.10-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "psshri/learn_docker",
+    "description": null,
+    "url": "https://github.com/psshri/learn_docker",
+    "createdAt": "2022-12-23T20:35:28Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "sjoilson/amor",
+    "description": null,
+    "url": "https://github.com/sjoilson/amor",
+    "createdAt": "2022-12-23T21:21:15Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/sjoilson/amor/contents/Dockerfile",
+        "images": [
+          "debian"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "NikhilHadawale/vscode-remote-try-go",
+    "description": null,
+    "url": "https://github.com/NikhilHadawale/vscode-remote-try-go",
+    "createdAt": "2022-12-23T04:25:04Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "maspape/docker_setting",
+    "description": "\u5404\u7a2e\u8a00\u8a9e\u306eDockerfile\u3068docker-compose.yml ",
+    "url": "https://github.com/maspape/docker_setting",
+    "createdAt": "2022-12-23T10:17:09Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "nikwebbons/docker-testing",
+    "description": null,
+    "url": "https://github.com/nikwebbons/docker-testing",
+    "createdAt": "2022-12-23T10:39:05Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "busybox"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "jq/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/jq/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "sbt/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/sbt/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-scala:2.11.8"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "node/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/node/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base:1.0.0"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "jenkins-base/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/jenkins-base/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "centos:7"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "python/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/python/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "cloud-foundry/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/cloud-foundry/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "gradle/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/gradle/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "cm/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/cm/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-node:v${PARENT_VERSION}"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "maven/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/maven/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "scala/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/scala/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "spydernik/jenkins-base:1.0.0"
+        ]
+      },
+      {
+        "filename": "Dockerfile",
+        "path": "gmu/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581489325/contents/gmu/Dockerfile?ref=a69658af04b09c3b125175177470c928043bfa54",
+        "images": [
+          "onsdigital/jenkins-slave-base"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Leonardo-Cardoso-ie/postgres_workspace",
+    "description": null,
+    "url": "https://github.com/Leonardo-Cardoso-ie/postgres_workspace",
+    "createdAt": "2022-12-23T02:35:39Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Ganesh9349/hiring1",
+    "description": null,
+    "url": "https://github.com/Ganesh9349/hiring1",
+    "createdAt": "2022-12-23T05:54:54Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Ganesh9349/hiring1/contents/Dockerfile",
+        "images": [
+          "tomcat:8.0.20-jre8"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "c-a-p-engineer/docker-elixir",
+    "description": "Elixir Docker",
+    "url": "https://github.com/c-a-p-engineer/docker-elixir",
+    "createdAt": "2022-12-23T16:06:41Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "DuaneNielsen/offb_jetson",
+    "description": "Offboard mavros controller node for jetson",
+    "url": "https://github.com/DuaneNielsen/offb_jetson",
+    "createdAt": "2022-12-23T00:30:12Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/DuaneNielsen/offb_jetson/contents/Dockerfile",
+        "images": [
+          "dustynv/ros:noetic-pytorch-l4t-r35.1.0"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Akash-1103/Docker",
+    "description": null,
+    "url": "https://github.com/Akash-1103/Docker",
+    "createdAt": "2022-12-23T18:13:05Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Akash-1103/Docker/contents/Dockerfile",
+        "images": [
+          "docker.io/httpd"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Vrashabh-Sontakke/devops-assessment",
+    "description": null,
+    "url": "https://github.com/Vrashabh-Sontakke/devops-assessment",
+    "createdAt": "2022-12-23T22:32:46Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "LonghronShen/entware-builder",
+    "description": null,
+    "url": "https://github.com/LonghronShen/entware-builder",
+    "createdAt": "2022-12-23T07:27:25Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/LonghronShen/entware-builder/contents/Dockerfile",
+        "images": [
+          "longhronshens/busybox"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "AstaJoks/my-full-template",
+    "description": null,
+    "url": "https://github.com/AstaJoks/my-full-template",
+    "createdAt": "2022-12-23T15:56:30Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "AliSajid/surrealfly",
+    "description": null,
+    "url": "https://github.com/AliSajid/surrealfly",
+    "createdAt": "2022-12-23T20:15:35Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/AliSajid/surrealfly/contents/Dockerfile",
+        "images": [
+          "surrealdb/surrealdb:1.0.0-beta.8"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Leonardo-Cardoso-ie/postgressql",
+    "description": "studying postgressql",
+    "url": "https://github.com/Leonardo-Cardoso-ie/postgressql",
+    "createdAt": "2022-12-23T01:37:15Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "jve89/table",
+    "description": "jQuery code",
+    "url": "https://github.com/jve89/table",
+    "createdAt": "2022-12-23T16:11:05Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "StanislavNesterovich/Mi-Smart-Kettle",
+    "description": "Mi Smart Kettle",
+    "url": "https://github.com/StanislavNesterovich/Mi-Smart-Kettle",
+    "createdAt": "2022-12-23T19:30:40Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "sosotechnologies/december-pipeline",
+    "description": null,
+    "url": "https://github.com/sosotechnologies/december-pipeline",
+    "createdAt": "2022-12-23T02:21:54Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/sosotechnologies/december-pipeline/contents/Dockerfile",
+        "images": [
+          "quay.io/semoss/docker-r-python:R4.2.1-debian11",
+          "quay.io/semoss/docker-tomcat:debian11",
+          "quay.io/semoss/docker-r-python:R4.2.1-debian11"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "rrajpuro/hello-rrp",
+    "description": "Created for toolchain: https://cloud.ibm.com/devops/toolchains/35c81326-02c1-4d43-8259-ca883e4195e2?env_id=ibm:yp:us-south",
+    "url": "https://github.com/rrajpuro/hello-rrp",
+    "createdAt": "2022-12-23T03:56:08Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/rrajpuro/hello-rrp/contents/Dockerfile",
+        "images": [
+          "node:alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Tchoutcha/bench004",
+    "description": null,
+    "url": "https://github.com/Tchoutcha/bench004",
+    "createdAt": "2022-12-23T09:52:26Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "channvvuthy/docker-php-apache-mysql-phpmyadmin",
+    "description": null,
+    "url": "https://github.com/channvvuthy/docker-php-apache-mysql-phpmyadmin",
+    "createdAt": "2022-12-23T09:55:02Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/channvvuthy/docker-php-apache-mysql-phpmyadmin/contents/Dockerfile",
+        "images": [
+          "php:7.2-apache"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "ahmedbasemdev/Python-Flask-Redis-Docker-Compose",
+    "description": null,
+    "url": "https://github.com/ahmedbasemdev/Python-Flask-Redis-Docker-Compose",
+    "createdAt": "2022-12-23T17:24:51Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/ahmedbasemdev/Python-Flask-Redis-Docker-Compose/contents/Dockerfile",
+        "images": [
+          "python"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "frdeeudrxh/BUS_ret",
+    "description": null,
+    "url": "https://github.com/frdeeudrxh/BUS_ret",
+    "createdAt": "2022-12-23T13:19:58Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/frdeeudrxh/BUS_ret/contents/Dockerfile",
+        "images": [
+          "alpine:edge"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "legacy-abc/core",
+    "description": null,
+    "url": "https://github.com/legacy-abc/core",
+    "createdAt": "2022-12-23T21:05:09Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/legacy-abc/core/contents/Dockerfile",
+        "images": [
+          "ubuntu"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "humo174/dockerized_nginx_php_mariadb",
+    "description": "Dockerized installation stack of Nginx+PHP-Fpm+MariaDB+Adminer",
+    "url": "https://github.com/humo174/dockerized_nginx_php_mariadb",
+    "createdAt": "2022-12-23T11:14:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "lcassis10/love-maths",
+    "description": null,
+    "url": "https://github.com/lcassis10/love-maths",
+    "createdAt": "2022-12-23T11:46:25Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "mikefarmer01/devimage-base",
+    "description": null,
+    "url": "https://github.com/mikefarmer01/devimage-base",
+    "createdAt": "2022-12-23T02:06:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mikefarmer01/devimage-base/contents/Dockerfile",
+        "images": [
+          "registry.access.redhat.com/ubi9/ubi:9.1.0-1646.1669627755"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Xh3ni/cli",
+    "description": null,
+    "url": "https://github.com/Xh3ni/cli",
+    "createdAt": "2022-12-23T21:40:33Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "Asaf1988/leumi",
+    "description": null,
+    "url": "https://github.com/Asaf1988/leumi",
+    "createdAt": "2022-12-23T20:30:28Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Asaf1988/leumi/contents/Dockerfile",
+        "images": [
+          "ubuntu"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "ShankarShanks/hiring-jhc",
+    "description": null,
+    "url": "https://github.com/ShankarShanks/hiring-jhc",
+    "createdAt": "2022-12-23T06:51:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/ShankarShanks/hiring-jhc/contents/Dockerfile",
+        "images": [
+          "tomcat:8.0.20-jre8"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "andif888/docker-snapcast",
+    "description": null,
+    "url": "https://github.com/andif888/docker-snapcast",
+    "createdAt": "2022-12-23T08:39:45Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/andif888/docker-snapcast/contents/Dockerfile",
+        "images": [
+          "debian:bullseye"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "lesterrye/duffyla",
+    "description": null,
+    "url": "https://github.com/lesterrye/duffyla",
+    "createdAt": "2022-12-23T09:02:27Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/lesterrye/duffyla/contents/Dockerfile",
+        "images": [
+          "alpine:edge"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "joaquinicolas/guarguar-vpn",
+    "description": "This is my own implementation of wireguard VPN ",
+    "url": "https://github.com/joaquinicolas/guarguar-vpn",
+    "createdAt": "2022-12-23T14:07:26Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/joaquinicolas/guarguar-vpn/contents/Dockerfile",
+        "images": [
+          "linuxserver/wireguard"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Avuer/Elementary",
+    "description": null,
+    "url": "https://github.com/Avuer/Elementary",
+    "createdAt": "2022-12-23T16:00:41Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Avuer/Elementary/contents/Dockerfile",
+        "images": [
+          "nginx:mainline-alpine-slim"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "mmaddex/mono",
+    "description": null,
+    "url": "https://github.com/mmaddex/mono",
+    "createdAt": "2022-12-23T19:04:21Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "xiaozuo0129/gb-redis-follower",
+    "description": null,
+    "url": "https://github.com/xiaozuo0129/gb-redis-follower",
+    "createdAt": "2022-12-23T06:37:04Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/xiaozuo0129/gb-redis-follower/contents/Dockerfile",
+        "images": [
+          "gcr.io/google_samples/gb-redis-follower:v2"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "midhunkraghavan/Custome-MongoDB-Image",
+    "description": null,
+    "url": "https://github.com/midhunkraghavan/Custome-MongoDB-Image",
+    "createdAt": "2022-12-23T07:17:14Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/midhunkraghavan/Custome-MongoDB-Image/contents/Dockerfile",
+        "images": [
+          "alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Varcal/fullcycle-node-mysql",
+    "description": null,
+    "url": "https://github.com/Varcal/fullcycle-node-mysql",
+    "createdAt": "2022-12-23T10:03:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "migalinas/kti-infrastructure",
+    "description": null,
+    "url": "https://github.com/migalinas/kti-infrastructure",
+    "createdAt": "2022-12-23T17:29:49Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/migalinas/kti-infrastructure/contents/Dockerfile",
+        "images": [
+          "python:3.10-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "yongwoon/rust-actix-web-postgres-template",
+    "description": "Docker Template of rust, actix-web ",
+    "url": "https://github.com/yongwoon/rust-actix-web-postgres-template",
+    "createdAt": "2022-12-23T03:03:41Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581383658/contents/Dockerfile?ref=58c818cb24b4586fa0790dfbf81da9ce2ca775f9",
+        "images": [
+          "rust:1.66.0",
+          "rust:1.66.0",
+          "rust:1.66.0-slim-stretch"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Ali-Akil-0/nodered_auto",
+    "description": null,
+    "url": "https://github.com/Ali-Akil-0/nodered_auto",
+    "createdAt": "2022-12-23T19:01:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Ali-Akil-0/nodered_auto/contents/Dockerfile",
+        "images": [
+          "alpine:3.13",
+          "nodered/node-red:2.2.2-minimal",
+          "alpine:3.13"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "ProtonDesigner/pocketbase-docker",
+    "description": "PocketBase dockerfile",
+    "url": "https://github.com/ProtonDesigner/pocketbase-docker",
+    "createdAt": "2022-12-23T20:58:41Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581652295/contents/Dockerfile?ref=5694e65b9a70e49fa2dc8558b1ad1232f3dcbc18",
+        "images": [
+          "alpine:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "amolmane94/Kubernetes_project",
+    "description": null,
+    "url": "https://github.com/amolmane94/Kubernetes_project",
+    "createdAt": "2022-12-23T20:37:21Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/amolmane94/Kubernetes_project/contents/Dockerfile",
+        "images": [
+          "centos:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "lbksony/mynode",
+    "description": null,
+    "url": "https://github.com/lbksony/mynode",
+    "createdAt": "2022-12-23T21:54:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/lbksony/mynode/contents/Dockerfile",
+        "images": [
+          "node:8.16.1"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "shymega/Watchers",
+    "description": "Rust-based RTOS for the Watchy E-Ink watch.",
+    "url": "https://github.com/shymega/Watchers",
+    "createdAt": "2022-12-23T20:35:07Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": ".devcontainer/Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581647610/contents/.devcontainer/Dockerfile?ref=030e1d001688ea14f27f32d3625e9c26f92ee111",
+        "images": [
+          "debian:bullseye"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "srikanthgppk007/ahsaas",
+    "description": null,
+    "url": "https://github.com/srikanthgppk007/ahsaas",
+    "createdAt": "2022-12-23T13:01:23Z",
+    "stargazerCount": 0,
+    "forkCount": 1,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/srikanthgppk007/ahsaas/contents/Dockerfile",
+        "images": [
+          "ubuntu:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "cookielab/container-image-slim",
+    "description": "Cookielab Slim Base Container Image",
+    "url": "https://github.com/cookielab/container-image-slim",
+    "createdAt": "2022-12-23T23:39:17Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/cookielab/container-image-slim/contents/Dockerfile",
+        "images": [
+          "debian:${DEBIAN_VERSION}-slim"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "nghiahsgs/How-to-debug-python-script-in-docker",
+    "description": "How to debug python script in docker",
+    "url": "https://github.com/nghiahsgs/How-to-debug-python-script-in-docker",
+    "createdAt": "2022-12-23T03:04:38Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/nghiahsgs/How-to-debug-python-script-in-docker/contents/Dockerfile",
+        "images": [
+          "python:3.9-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "haris-coder/javahelloworld",
+    "description": null,
+    "url": "https://github.com/haris-coder/javahelloworld",
+    "createdAt": "2022-12-23T06:55:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/haris-coder/javahelloworld/contents/Dockerfile",
+        "images": [
+          "java:8"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "monisdapp/me",
+    "description": "me",
+    "url": "https://github.com/monisdapp/me",
+    "createdAt": "2022-12-23T07:38:06Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/monisdapp/me/contents/Dockerfile",
+        "images": [
+          "teddysun/xray"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Ryan121/ansible-dev",
+    "description": "A repo to develop and test ansible playbooks",
+    "url": "https://github.com/Ryan121/ansible-dev",
+    "createdAt": "2022-12-23T12:41:49Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Ryan121/ansible-dev/contents/Dockerfile",
+        "images": [
+          "ubuntu:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "domfp13/web-app",
+    "description": null,
+    "url": "https://github.com/domfp13/web-app",
+    "createdAt": "2022-12-23T17:37:46Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "chiragshahklc/docker-compose-files",
+    "description": null,
+    "url": "https://github.com/chiragshahklc/docker-compose-files",
+    "createdAt": "2022-12-23T16:23:31Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "andypieters/symfony-docker",
+    "description": null,
+    "url": "https://github.com/andypieters/symfony-docker",
+    "createdAt": "2022-12-23T09:22:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/andypieters/symfony-docker/contents/Dockerfile",
+        "images": [
+          "php:8.2-fpm-alpine",
+          "php:8.2-fpm-alpine",
+          "caddy:2.6-builder-alpine",
+          "caddy:2.6-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "harshinidevops/jenkins-docker-example",
+    "description": null,
+    "url": "https://github.com/harshinidevops/jenkins-docker-example",
+    "createdAt": "2022-12-23T09:22:52Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/harshinidevops/jenkins-docker-example/contents/Dockerfile",
+        "images": [
+          "ubuntu:18.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "toaomatis/sail-8.1",
+    "description": "Laravel Sail PHP 8.1 runtime",
+    "url": "https://github.com/toaomatis/sail-8.1",
+    "createdAt": "2022-12-23T13:09:27Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/toaomatis/sail-8.1/contents/Dockerfile",
+        "images": [
+          "ubuntu:22.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Zalmoxis000/altitude-server-container",
+    "description": null,
+    "url": "https://github.com/Zalmoxis000/altitude-server-container",
+    "createdAt": "2022-12-23T19:08:43Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/Zalmoxis000/altitude-server-container/contents/Dockerfile",
+        "images": [
+          "debian:bullseye-slim"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "jqfernandez/mq-container",
+    "description": null,
+    "url": "https://github.com/jqfernandez/mq-container",
+    "createdAt": "2022-12-23T21:37:43Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/jqfernandez/mq-container/contents/Dockerfile",
+        "images": [
+          "ibmcom/mq:9.2.3.0-r1-amd64"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "cloudw233/app",
+    "description": null,
+    "url": "https://github.com/cloudw233/app",
+    "createdAt": "2022-12-23T02:34:40Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/cloudw233/app/contents/Dockerfile",
+        "images": [
+          "node:lts",
+          "node:lts-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "rdustin/gitpod-images",
+    "description": "Custom gitpod images to use as a base for projects",
+    "url": "https://github.com/rdustin/gitpod-images",
+    "createdAt": "2022-12-23T16:51:46Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/rdustin/gitpod-images/contents/Dockerfile",
+        "images": [
+          "gitpod/workspace-postgresql"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "vlad-mois/fastapi-example",
+    "description": null,
+    "url": "https://github.com/vlad-mois/fastapi-example",
+    "createdAt": "2022-12-23T12:20:13Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/vlad-mois/fastapi-example/contents/Dockerfile",
+        "images": [
+          "python:3.8"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "julmearun/My-Brand-New-Repository",
+    "description": "My Brand New-Repository",
+    "url": "https://github.com/julmearun/My-Brand-New-Repository",
+    "createdAt": "2022-12-23T13:41:19Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/julmearun/My-Brand-New-Repository/contents/Dockerfile",
+        "images": [
+          "centos:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "yoannguion/centos-6-docker",
+    "description": "centos 6 docker image",
+    "url": "https://github.com/yoannguion/centos-6-docker",
+    "createdAt": "2022-12-23T16:45:01Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/yoannguion/centos-6-docker/contents/Dockerfile",
+        "images": [
+          "centos:6"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "inasinta/cek",
+    "description": null,
+    "url": "https://github.com/inasinta/cek",
+    "createdAt": "2022-12-23T18:31:40Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/inasinta/cek/contents/Dockerfile",
+        "images": [
+          "phusion/baseimage:bionic-1.0.0"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "AdamTyn/at-caddy2",
+    "description": "caddy2 \u81ea\u7f16\u8bd1",
+    "url": "https://github.com/AdamTyn/at-caddy2",
+    "createdAt": "2022-12-23T01:56:36Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/AdamTyn/at-caddy2/contents/Dockerfile",
+        "images": [
+          "golang:1.18-alpine3.17",
+          "alpine:3.17"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "vanthinhit310/docker-laravel",
+    "description": "Docker with laravel application",
+    "url": "https://github.com/vanthinhit310/docker-laravel",
+    "createdAt": "2022-12-23T01:51:05Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "OpenMLOPs/jenkinsDocker",
+    "description": "REQUIREMENTS",
+    "url": "https://github.com/OpenMLOPs/jenkinsDocker",
+    "createdAt": "2022-12-23T07:03:34Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/OpenMLOPs/jenkinsDocker/contents/Dockerfile",
+        "images": [
+          "jenkins/jenkins:lts-jdk11"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "xiaozuo0129/gb-frontend",
+    "description": null,
+    "url": "https://github.com/xiaozuo0129/gb-frontend",
+    "createdAt": "2022-12-23T07:57:48Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/xiaozuo0129/gb-frontend/contents/Dockerfile",
+        "images": [
+          "gcr.io/google_samples/gb-frontend:v5"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "welshstew/ansible-openshift-ee",
+    "description": "simple execution environment container for ansible inside openshift",
+    "url": "https://github.com/welshstew/ansible-openshift-ee",
+    "createdAt": "2022-12-23T09:51:30Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "yuuzao/dockers",
+    "description": null,
+    "url": "https://github.com/yuuzao/dockers",
+    "createdAt": "2022-12-23T09:30:28Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "pennyfarrell/love-maths",
+    "description": null,
+    "url": "https://github.com/pennyfarrell/love-maths",
+    "createdAt": "2022-12-23T19:58:42Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "cric96/pytorch-notebook-gnn-aarhus",
+    "description": null,
+    "url": "https://github.com/cric96/pytorch-notebook-gnn-aarhus",
+    "createdAt": "2022-12-23T09:02:07Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/cric96/pytorch-notebook-gnn-aarhus/contents/Dockerfile",
+        "images": [
+          "nvidia/cuda:11.6.1-devel-ubuntu20.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "boyander/aws-kubectl",
+    "description": "AWS cli and kubectl preprared in Alpine Linux",
+    "url": "https://github.com/boyander/aws-kubectl",
+    "createdAt": "2022-12-23T17:36:38Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/boyander/aws-kubectl/contents/Dockerfile",
+        "images": [
+          "alpine:3.17"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "naka516/nodejs-study",
+    "description": null,
+    "url": "https://github.com/naka516/nodejs-study",
+    "createdAt": "2022-12-23T08:29:22Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/naka516/nodejs-study/contents/Dockerfile",
+        "images": [
+          "--platform=linux/x86_64"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "Leonardo-Cardoso-ie/Django_milestone-project4",
+    "description": null,
+    "url": "https://github.com/Leonardo-Cardoso-ie/Django_milestone-project4",
+    "createdAt": "2022-12-23T06:25:54Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "mUsman3/flask-docker",
+    "description": null,
+    "url": "https://github.com/mUsman3/flask-docker",
+    "createdAt": "2022-12-23T12:01:58Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/mUsman3/flask-docker/contents/Dockerfile",
+        "images": [
+          "python:3.8-slim-buster"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "zevitagem/shared-database",
+    "description": null,
+    "url": "https://github.com/zevitagem/shared-database",
+    "createdAt": "2022-12-23T20:25:28Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "dsul5486srt/mogenius",
+    "description": null,
+    "url": "https://github.com/dsul5486srt/mogenius",
+    "createdAt": "2022-12-23T13:14:37Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/dsul5486srt/mogenius/contents/Dockerfile",
+        "images": [
+          "teddysun/xray"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "vShchohol/ansible-build-image",
+    "description": null,
+    "url": "https://github.com/vShchohol/ansible-build-image",
+    "createdAt": "2022-12-23T12:14:09Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/vShchohol/ansible-build-image/contents/Dockerfile",
+        "images": [
+          "ubuntu:20.04"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "fabriordonez/alpine-jq",
+    "description": null,
+    "url": "https://github.com/fabriordonez/alpine-jq",
+    "createdAt": "2022-12-23T16:42:04Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/fabriordonez/alpine-jq/contents/Dockerfile",
+        "images": [
+          "alpine:latest"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "JimGardner0204/The-Baking-Flamingo",
+    "description": "Showcasing cakes by the baking flamingo",
+    "url": "https://github.com/JimGardner0204/The-Baking-Flamingo",
+    "createdAt": "2022-12-23T19:10:20Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "makarovgrigory/kti-infrastructure4",
+    "description": null,
+    "url": "https://github.com/makarovgrigory/kti-infrastructure4",
+    "createdAt": "2022-12-23T23:48:01Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "url": "https://api.github.com/repos/makarovgrigory/kti-infrastructure4/contents/Dockerfile",
+        "images": [
+          "python:3.10-alpine"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "alexanderczigler/docker-ubuntu-ocr",
+    "description": "Ubuntu (22.10 Kinetic Kudu) docker image for OCR applications",
+    "url": "https://github.com/alexanderczigler/docker-ubuntu-ocr",
+    "createdAt": "2022-12-23T20:11:51Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581642617/contents/Dockerfile?ref=00768896d9fbec01c546e584a64fab051ba8e23c",
+        "images": [
+          "ubuntu:kinetic-20230605"
+        ]
+      }
+    ]
+  },
+  {
+    "nameWithOwner": "DiamondBroPlayz/test",
+    "description": "sadasdasd",
+    "url": "https://github.com/DiamondBroPlayz/test",
+    "createdAt": "2022-12-23T17:39:21Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "guenterfischer/docker-images",
+    "description": "Docker images for Neovim, SSH, AVR, Zephyr, ...",
+    "url": "https://github.com/guenterfischer/docker-images",
+    "createdAt": "2022-12-23T14:03:40Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": []
+  },
+  {
+    "nameWithOwner": "rasilab/r",
+    "description": "Dockerfile for default R container",
+    "url": "https://github.com/rasilab/r",
+    "createdAt": "2022-12-23T21:54:04Z",
+    "stargazerCount": 0,
+    "forkCount": 0,
+    "details": [
+      {
+        "filename": "Dockerfile",
+        "path": "Dockerfile",
+        "detail_url": "https://api.github.com/repositories/581662988/contents/Dockerfile?ref=70f9f50a59477ffe4f34a1e0c6042e9041082fc6",
+        "images": [
+          "continuumio/miniconda3:4.12.0"
+        ]
+      }
+    ]
+  }
+]
