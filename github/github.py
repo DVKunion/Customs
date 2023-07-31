@@ -31,7 +31,7 @@ class GithubCode:
                 if "message" in response_json and "API rate limit" in response_json["message"]:
                     # 触发频率限制了，休息个50s左右
                     print(f"rete limit, now process: {i}/{total_repos}")
-                    time.sleep(55)
+                    time.sleep(60)
                 response = self.fetch_detail(repo)
                 response_json = response.json()
                 retry_cnt += 1
@@ -50,11 +50,18 @@ class GithubCode:
 
     def parse_result(self, response_json):
         result = []
+        # if len(response_json["items"]) == 0:
+        #     res = dict()
+        #     res['filename'] = "Dockerfile"
+        #     res['path'] = "Dockerfile"
+        #     res['res'] =
+        #     images = []
+        #     # need get
+        #     resp_detail = requests.get(url, headers=self.headers)
         for item in response_json["items"]:
             res = dict()
             res['filename'] = item["name"]
             res['path'] = item["path"]
-            res['repo_name'] = item["repository"]["name"]
             url = item["url"]
             res['detail_url'] = url
             print(f"{res['filename']}:{res['path']} - {res['detail_url']}")
