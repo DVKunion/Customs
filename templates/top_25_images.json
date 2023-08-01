@@ -1,0 +1,131 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 600,
+  "height": 400,
+  "padding": 5,
+  "data": [
+    {
+      "name": "source",
+      "values": "$data"
+    }
+  ],
+  "title": {
+    "text": "Top 25 Images Used By GitHub Dockerfiles At $time"
+  },
+  "scales": [
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {
+        "data": "source",
+        "field": "image"
+      },
+      "range": "height",
+      "padding": 0.1
+    },
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {
+        "data": "source",
+        "field": "count"
+      },
+      "range": "width",
+      "nice": true
+    }
+  ],
+  "axes": [
+    {
+      "orient": "left",
+      "scale": "y",
+      "title": "Image Reference",
+      "labelPadding": 4
+    },
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Total Count"
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "source"
+      },
+      "encode": {
+        "enter": {
+          "y": {
+            "scale": "y",
+            "field": "image"
+          },
+          "height": {
+            "scale": "y",
+            "band": 1
+          },
+          "x": {
+            "scale": "x",
+            "value": 0
+          },
+          "x2": {
+            "scale": "x",
+            "field": "count"
+          },
+          "fill": {
+            "value": "steelblue"
+          }
+        },
+        "update": {
+          "y": {
+            "scale": "y",
+            "field": "image"
+          },
+          "height": {
+            "scale": "y",
+            "band": 1
+          },
+          "x": {
+            "scale": "x",
+            "value": 0
+          },
+          "x2": {
+            "scale": "x",
+            "field": "count"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "source"
+      },
+      "encode": {
+        "enter": {
+          "y": {
+            "scale": "y",
+            "field": "image",
+            "band": 0.5
+          },
+          "x": {
+            "scale": "x",
+            "field": "count",
+            "offset": -4
+          },
+          "align": {
+            "value": "right"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "white"
+          },
+          "text": {
+            "field": "count"
+          }
+        }
+      }
+    }
+  ]
+}
