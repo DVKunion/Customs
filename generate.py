@@ -13,7 +13,7 @@ def generate_top_images_calc():
     sorted_keys_by_value.reverse()
     # print("image_set: ", sorted_keys_by_value)
     res_dict = []
-    for i in range(0, 25):
+    for i in range(0, 50):
         res_dict.append({
             "image": sorted_keys_by_value[i],
             "count": image_count[sorted_keys_by_value[i]],
@@ -28,7 +28,7 @@ def generate_top_images_calc():
     print("max images:", max_name)
     print("max images total:", max_count)
 
-    with open("templates/top_25_images.json", "r+") as f:
+    with open("templates/top_50_images.json", "r+") as f:
         template = f.read()
         render = template.replace('$time', datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))\
             .replace('"$data"', json.dumps(res_dict))
@@ -38,7 +38,7 @@ def generate_top_images_calc():
         if r.status_code != 200:
             print(r.status_code, r.text)
             return
-        with open('assets/top_25_images.svg', 'w+') as s:
+        with open('assets/top_50_images.svg', 'w+') as s:
             s.write(r.text)
 
 

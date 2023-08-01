@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 600,
-  "height": 400,
+  "width": 1080,
+  "height": 980,
   "padding": 5,
   "background": "white",
   "data": [
@@ -11,7 +11,7 @@
     }
   ],
   "title": {
-    "text": "Top 25 Images Used By GitHub Dockerfiles At $time"
+    "text": "Top 50 Images Used By GitHub Dockerfiles At $time"
   },
   "scales": [
     {
