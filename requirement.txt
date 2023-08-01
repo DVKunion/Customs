@@ -1,4 +1,4 @@
-requests
+requests==2.31.0
 pysocks==1.7.1
 urllib3==2.0.4
 dockerfile-parse==2.0.1

@@ -3,6 +3,7 @@
   "width": 600,
   "height": 400,
   "padding": 5,
+  "background": "white",
   "data": [
     {
       "name": "source",
