@@ -1,6 +1,7 @@
 import time
 from datetime import datetime, timedelta
 
+
 def calculate_execution_time(func):
     def wrapper(*args, **kwargs):
         start_time = time.time()

@@ -10,8 +10,8 @@ on:
       token:
         description: 'select token'
         required: true
-  schedule:
-    - cron: '0 17 * * *'
+#  schedule:
+#    - cron: '0 17 * * *'
 
 jobs:
   collect-github:

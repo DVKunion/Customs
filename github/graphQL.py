@@ -9,7 +9,7 @@ class GraphQL:
         self.url = 'https://api.github.com/graphql'
         self.batch_size = batch_size
         self.token = github_token
-        self.query_time = common.timer.get_previous_day()
+        self.query_time = common.timer.get_previous_day().strftime("%Y-%m-%d")
         if date != "":
             self.query_time = date
         self.query = f'''language:Dockerfile created:{self.query_time}'''

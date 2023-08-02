@@ -1,13 +1,11 @@
-import base64
 import json
-import re
 import time
 
 import requests
 
 import common.timer
+import common.dockerfile
 from github.graphQL import GraphQL
-from dockerfile_parse import DockerfileParser
 
 
 class GithubCode:
@@ -27,7 +25,7 @@ class GithubCode:
             response = self.fetch_detail(repo)
             response_json = response.json()
             retry_cnt = 0
-            while response.status_code != 200 and retry_cnt < 3:
+            while response.status_code != 200 and retry_cnt < 5:
                 if "message" in response_json and "API rate limit" in response_json["message"]:
                     # 触发频率限制了，休息个50s左右
                     print(f"rete limit, now process: {i}/{total_repos}")
@@ -68,7 +66,7 @@ class GithubCode:
             resp_detail = requests.get(url, headers=self.headers)
             if resp_detail.status_code == 200:
                 resp_detail_json = resp_detail.json()
-                res['images'] = parse(resp_detail_json)
+                res['images'] = common.dockerfile.parse(resp_detail_json)
                 result.append(res)
             else:
                 print(resp_detail.text)
@@ -85,54 +83,10 @@ class GithubCode:
         resp_detail = requests.get(res['url'], headers=self.headers)
         if resp_detail.status_code == 200:
             resp_detail_json = resp_detail.json()
-            res['images'] = parse(resp_detail_json)
+            res['images'] = common.dockerfile.parse(resp_detail_json)
         return res
 
     def save_result(self):
         date_slice = self.graphQL.query_time.split("-")
         with open(f"dataset/{date_slice[0]}/{date_slice[1]}/github-{self.graphQL.query_time}.json", "w+") as file:
             file.write(json.dumps(self.codes))
-
-
-def parse(resp_detail_json):
-    image_list = []
-    try:
-        contents_base64 = resp_detail_json["content"].replace("\n", "")
-        decoded_bytes = base64.b64decode(contents_base64)
-        decoded_string = decoded_bytes.decode('utf-8')
-        dfp = DockerfileParser()
-        dfp.content = decoded_string
-        alias = dict()
-        for line in dfp.structure:
-            if line["instruction"] == "FROM":
-                values = line["value"].split(" ")
-                image = values[0]
-                # find replace value:
-                arg_pattern = r'\$\{(\w+)\}'
-                arg_matches = re.findall(arg_pattern, image)
-                for arg_name in arg_matches:
-                    arg_value = get_arg_value(arg_name, decoded_string)
-                    if arg_value:
-                        image = image.replace(f'${{{arg_name}}}', arg_value)
-                # transfer alias
-                if image in alias:
-                    image = alias[image]
-                for v in values:
-                    if v.lower() == "as":
-                        alias[values[-1]] = image
-
-                image_list.append(image)
-    except:
-        print("error parse")
-        print(resp_detail_json)
-    return image_list
-
-
-def get_arg_value(arg_name, dockerfile):
-    arg_pattern = rf'ARG\s+{arg_name}=([^\n\r]+)'
-    arg_match = re.search(arg_pattern, dockerfile)
-
-    if arg_match:
-        return arg_match.group(1).strip().replace("\"", "").replace("'", "")
-    else:
-        return None
