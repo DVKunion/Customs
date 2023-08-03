@@ -4,7 +4,14 @@ import json
 
 import requests
 
+import common.dockerfile
+
 image_count = dict()
+
+repository_set = set()
+repositories = []
+image_set = set()
+images = []
 
 
 def generate_top_images_calc():
@@ -30,7 +37,7 @@ def generate_top_images_calc():
 
     with open("templates/top_50_images.json", "r+") as f:
         template = f.read()
-        render = template.replace('$time', datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))\
+        render = template.replace('$time', datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")) \
             .replace('"$data"', json.dumps(res_dict))
         r = requests.post("https://mtigd2.laf.run/transfer_svg", headers={
             "Content-Type": "application/json; charset=UTF-8",
@@ -40,6 +47,14 @@ def generate_top_images_calc():
             return
         with open('assets/top_50_images.svg', 'w+') as s:
             s.write(r.text)
+
+
+def format_image():
+    print(len(image_set))
+    sorted_dict_array = sorted(images, key=lambda x: x['count'])
+    sorted_dict_array.reverse()
+    for i in range(0, 100):
+        print(sorted_dict_array[i])
 
 
 def load_json():
@@ -65,6 +80,33 @@ def load_json():
                                 for image in detail["images"]:
                                     if image in image_tmp_key:
                                         continue
+                                    refer_dict = common.dockerfile.parse_reference(image)
+                                    if refer_dict is None:
+                                        continue
+                                    if refer_dict["repository"] in repository_set:
+                                        for r in repositories:
+                                            if r["name"] == refer_dict["repository"]:
+                                                r["count"] += 1
+                                    else:
+                                        repository_set.add(refer_dict["repository"])
+                                        repositories.append({
+                                            "name": refer_dict["repository"],
+                                            "count": 1,
+                                        })
+                                    if refer_dict["image_name"] in image_set:
+                                        for r in images:
+                                            if r["name"] == refer_dict["image_name"]:
+                                                r["tags"].add(refer_dict["tag"])
+                                                r["count"] += 1
+                                    else:
+                                        image_set.add(refer_dict["image_name"])
+                                        obj = {
+                                            "name": refer_dict["image_name"],
+                                            "count": 1,
+                                            "tags": set()
+                                        }
+                                        obj["tags"].add(refer_dict["tag"])
+                                        images.append(obj)
                                     image_tmp_key[image] = 0
                                     if image in image_count:
                                         image_count[image] += 1
@@ -79,4 +121,5 @@ def load_json():
 
 if __name__ == '__main__':
     load_json()
+    # format_image()
     generate_top_images_calc()
